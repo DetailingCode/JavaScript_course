@@ -1,6 +1,5 @@
 const name = "Dominik";
-let age = 33;
-const fMeal = "pizza";
 
-console.log(name, age, fMeal);
+const favMeal = "pizza";
 
+console.log(`Cześć, jestem ${name} i moim ulubionym daniem jest ${favMeal}`);
