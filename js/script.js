@@ -7,3 +7,16 @@ console.log(
 );
 
 console.log(`text, "a to cudzysłów"`);
+
+const msg = "jakaś tam wiadomość";
+
+console.log(msg.toUpperCase());
+
+const userName = "piotr";
+
+const newUserName = userName.charAt(0).toUpperCase() + userName.slice(1);
+
+console.log(userName.slice(1));
+
+console.log(newUserName);
+
