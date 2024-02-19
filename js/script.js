@@ -39,10 +39,17 @@ console.log(text4.includes("czy"));
 const text5 =
 	'wyLoguj w konsoli tylko literę "L", która znajduję się w wyrazie "Wyloguj';
 
+console.log(text5.charAt(2));
+
 const text6 = "pies zamień każde słowo pies, kot pies";
 
 console.log(text6.replaceAll("pies", "kot"));
 
 const text7 = "podziel, ten, string, od, przecinków";
+
+console.log(text7.split(','));
+
+
+
 
 console.log("%cCześć!", "font-size: 30px; color:gold; text-transform:uppercase;");
