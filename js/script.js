@@ -53,3 +53,8 @@ console.log(text7.split(','));
 
 
 console.log("%cCześć!", "font-size: 30px; color:gold; text-transform:uppercase;");
+
+
+const num5 = 135.123
+
+console.log(num5.toFixed());
