@@ -16,6 +16,8 @@ const person = {
 
 console.log(person);
 
+// ==== OPERATORY ARYTMETYCZNE ====
+
 /*
 let x = 5;
 const y = 6;
@@ -44,6 +46,8 @@ const modulo = 10%4
 console.log(modulo);
 */
 
+// ==== OPERATORY PRZYPISANIA ====
+/*
 let x = 10;
 let y = 5;
 console.log(x);
@@ -62,5 +66,15 @@ console.log(x);
 
 x %= y;
 console.log(x);
+*/
 
 
+// ==== OPERATORY PORÓWNANIA ====
+
+console.log(10 == '10');
+console.log(10 === '10');
+console.log('10' === '10');
+
+console.log(10 != '10');
+console.log(10 !== '10');
+console.log('10' !== '10');
