@@ -16,7 +16,8 @@ const person = {
 
 console.log(person);
 
-const x = 5;
+/*
+let x = 5;
 const y = 6;
 
 const add = x + y;
@@ -30,4 +31,36 @@ console.log(multiply);
 
 const divide = x / y;
 console.log(divide);
+
+x++;
+
+console.log(`Inkrementacja zwiększa x o 1: ${x}`);
+
+x--
+
+console.log(`Dekrementacja zmniejsza x o 1: ${x}`);
+
+const modulo = 10%4
+console.log(modulo);
+*/
+
+let x = 10;
+let y = 5;
+console.log(x);
+
+x += y;
+console.log(x);
+
+x -= y;
+console.log(x);
+
+x *= y;
+console.log(x);
+
+x /= y;
+console.log(x);
+
+x %= y;
+console.log(x);
+
 
