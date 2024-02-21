@@ -94,7 +94,7 @@ if (pass.length > 10 && pass.includes('!')) {
 */
 
 // SWITCH ============
-
+/*
 const day = "sobota";
 
 switch (day) {
@@ -115,4 +115,30 @@ switch (day) {
 		break;
 	default:
 		console.log("Weekend :)");
+}
+*/
+
+// ===== OPERATORY WARUNKOWE
+
+// const x = 10;
+// if (x > 20) {
+// 	console.log(`${x} > 20`);
+// } else {
+// 	console.log(`${x} < 20`);
+// }
+
+
+// const newX = x > 20 ? `${x} > 20` : `${x} < 20`;
+
+// console.log(newX);
+
+// IF ZADANIE ===========
+
+const x = 50
+const y = 30
+
+if (x > y){
+    console.log(`${x} jest większe, niż ${y}`);
+} else {
+    console.log(`${x} jest mniejsze, niż ${y}`);
 }
