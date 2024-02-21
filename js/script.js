@@ -80,7 +80,7 @@ console.log('10' !== '10');
 */
 
 // ===== IF / ELSE IF/ ELSE =====
-
+/*
 const pass = "2u+454!54545#f#";
 
 if (pass.length > 10 && pass.includes('!')) {
@@ -89,4 +89,30 @@ if (pass.length > 10 && pass.includes('!')) {
 	console.log("Masz dobre hasło");
 } else {
 	console.log('Masz za krótkie hasło');
+}
+
+*/
+
+// SWITCH ============
+
+const day = "sobota";
+
+switch (day) {
+	case "poniedziałek":
+		console.log("dziś jest poniedziałek");
+		break;
+	case "wtorek":
+		console.log("dziś jest wtorek");
+		break;
+	case "środa":
+		console.log("dziś jest środa");
+		break;
+	case "czwartek":
+		console.log("dziś jest czwartek");
+		break;
+	case "piątek":
+		console.log("dziś jest piątek");
+		break;
+	default:
+		console.log("Weekend :)");
 }
