@@ -68,7 +68,6 @@ x %= y;
 console.log(x);
 */
 
-
 // ==== OPERATORY PORÓWNANIA ====
 /*
 console.log(10 == '10');
@@ -82,13 +81,12 @@ console.log('10' !== '10');
 
 // ===== IF / ELSE IF/ ELSE =====
 
+const pass = "2u+454!54545#f#";
 
-const pass = '2u+45454545#f#'
-
-if(pass.length > 10){
-    console.log('Masz dobre hasło');
-} else{
-    console.log('Masz bardzo słabe hasło, zastosuj więcej znaków');
+if (pass.length > 10 && pass.includes('!')) {
+	console.log("Masz bardzo dobre hasło");
+} else if (pass.length > 10) {
+	console.log("Masz dobre hasło");
+} else {
+	console.log('Masz za krótkie hasło');
 }
-   
-
