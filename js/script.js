@@ -162,7 +162,6 @@ switch (day) {
 // 	console.log('x<y');
 // }
 
-
 // ======== ZADANIE 3
 
 // const x = 10;
@@ -172,13 +171,14 @@ switch (day) {
 
 // ========== ZADANIE 4
 
-const x = 40
-
-if (x >= 100){
-    console.log('%cx > 100', 'test-transfor:uppercase');
-} else if (x < 100 && x > 30){
-    console.log('%cx jest średniakiem', 'text-transform:uppercase; color:orangered;font-size:2rem;background-color:black');
+const x = 4;
+if (x >= 100) {
+	console.log("%cx >= 100", "test-transfor:uppercase");
+} else if (x < 100 && x > 30) {
+	console.log(
+		"%cx jest średniakiem",
+		"text-transform:uppercase; color:orangered;font-size:2rem;background-color:black"
+	);
+} else {
+	console.log("%cx jest mały", "text-transform:uppercase");
 }
-
-
-
