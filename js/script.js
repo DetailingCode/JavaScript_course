@@ -171,14 +171,18 @@ switch (day) {
 
 // ========== ZADANIE 4
 
-const x = 4;
-if (x >= 100) {
-	console.log("%cx >= 100", "test-transfor:uppercase");
-} else if (x < 100 && x > 30) {
-	console.log(
-		"%cx jest średniakiem",
-		"text-transform:uppercase; color:orangered;font-size:2rem;background-color:black"
-	);
-} else {
-	console.log("%cx jest mały", "text-transform:uppercase");
+// const x = 114;
+// let text;
+// if (x >= 100) {
+// 	text = "x >= 100";
+// } else if (x < 100 && x > 30) {
+// 	text = "x jest średniakiem";
+// } else {
+// 	text = "x jest mały";
+// }
+
+// console.log(text.toUpperCase());
+
+for(){
+    
 }
