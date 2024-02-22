@@ -127,18 +127,42 @@ switch (day) {
 // 	console.log(`${x} < 20`);
 // }
 
-
 // const newX = x > 20 ? `${x} > 20` : `${x} < 20`;
 
 // console.log(newX);
 
-// IF ZADANIE ===========
+// IF ZADANIA ===========
 
-const x = 50
-const y = 30
+// const x = 50
+// const y = 30
 
-if (x > y){
-    console.log(`${x} jest większe, niż ${y}`);
-} else {
-    console.log(`${x} jest mniejsze, niż ${y}`);
-}
+// if (x > y){
+//     console.log(`${x} jest większe, niż ${y}`);
+// } else {
+//     console.log(`${x} jest mniejsze, niż ${y}`);
+// }
+
+// const color = "blue";
+// const newColor = "green";
+
+// if (color === newColor) {
+// 	console.log("kolory się zgadzają");
+// } else {
+// 	console.log("kolory się nie zgadzają");
+// }
+
+// const x = 100;
+// const y = 100;
+
+// if (x > y) {
+// 	console.log('x>y');
+// } else if (x === y) {
+// 	console.log('x=y');
+// } else {
+// 	console.log('x<y');
+// }
+
+const x = 10;
+
+const check = (x % 2 === 0) ? "X jest parzyste" : "X jest nieparzyste";
+console.log(check);
