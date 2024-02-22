@@ -162,7 +162,23 @@ switch (day) {
 // 	console.log('x<y');
 // }
 
-const x = 10;
 
-const check = (x % 2 === 0) ? "X jest parzyste" : "X jest nieparzyste";
-console.log(check);
+// ======== ZADANIE 3
+
+// const x = 10;
+
+// const check = (x % 2 === 0) ? "X jest parzyste" : "X jest nieparzyste";
+// console.log(check);
+
+// ========== ZADANIE 4
+
+const x = 150
+
+if (x >= 100){
+    console.log('%cx > 100', 'test-transfor:uppercase');
+} else if (x < 100 && x > 30){
+    console.log('%cx jest średniakiem', 'text-transform:uppercase');
+}
+
+
+
