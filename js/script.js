@@ -224,7 +224,6 @@ switch (day) {
 
 // ======================================
 
-
 // ========= PETLA DO...WHILE =============
 
 // let i = 0;
@@ -236,13 +235,16 @@ switch (day) {
 
 // ========================================
 
-
 // ========= PETLA FOR OF =============
 
-const numbers = [1,2,3,4,5,6,7,8]
+// const numbers = [1,2,3,4,5,6,7,8]
 
-for (const number of numbers){
-    console.log(number*2);
+// for (const number of numbers){
+//     console.log(number*2);
+// }
+
+const cities = ["London", "Paris", "Warsaw", "Berlin", "Madrid"];
+
+for (let i = 0; i < cities.length; i++) {
+	console.log(`To miasto nazywa się:`[cities]);
 }
-
-
