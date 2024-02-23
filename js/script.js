@@ -1,20 +1,20 @@
-const colors = ["red", "green", "blue"];
+// const colors = ["red", "green", "blue"];
 
-console.log(colors);
+// console.log(colors);
 
-function test() {
-	console.log("Funkcja!");
-}
+// function test() {
+// 	console.log("Funkcja!");
+// }
 
-test();
+// test();
 
-const person = {
-	name: "imie",
-	age: 33,
-	favColor: "red",
-};
+// const person = {
+// 	name: "imie",
+// 	age: 33,
+// 	favColor: "red",
+// };
 
-console.log(person);
+// console.log(person);
 
 // ==== OPERATORY ARYTMETYCZNE ====
 
@@ -183,6 +183,14 @@ switch (day) {
 
 // console.log(text.toUpperCase());
 
-for(){
-    
+// const animals = ["dog", "cat", "horse", "pig", "bat","ant",'cow'];
+
+// for (let i = 0; i < animals.length; i++) {
+// 	console.log(animals[i]);
+// }
+
+const colors = ['red','blue','green','grey','pink','yellow'];
+
+for (let i = 0; i < colors.length; i++){
+    console.log(colors[i]);
 }
