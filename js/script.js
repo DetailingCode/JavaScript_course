@@ -195,26 +195,31 @@ switch (day) {
 //     console.log(colors[i]);
 // }
 
-const colors = [
-	"red",
-	"blue",
-	"green",
-	"grey",
-	"pink",
-	"yellow",
-	"black",
-	"white",
-];
+// const colors = [
+// 	"red",
+// 	"blue",
+// 	"green",
+// 	"grey",
+// 	"pink",
+// 	"yellow",
+// 	"black",
+// 	"white",
+// ];
 
-for (let i = 0; i < colors.length; i++) {
-	console.log(colors[i]);
-}
+// for (let i = 0; i < colors.length; i++) {
+// 	console.log(colors[i]);
+// }
+
+// let i = 0;
+
+// while (i < 10) {
+// 	console.log(i);
+// 	i++;
+// }
 
 let i = 0;
 
-while (i < 10) {
-	console.log(i);
+do {
 	i++;
-}
-
-
+	console.log(i);
+} while (i < 11);
