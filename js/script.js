@@ -246,5 +246,6 @@ switch (day) {
 const cities = ["London", "Paris", "Warsaw", "Berlin", "Madrid"];
 
 for (let i = 0; i < cities.length; i++) {
-	console.log(`To miasto nazywa się:`[cities]);
+	console.log(`To miasto nazywa się: ${cities[i]}`);
+	
 }
