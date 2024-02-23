@@ -195,6 +195,8 @@ switch (day) {
 //     console.log(colors[i]);
 // }
 
+// ========= PETLA FOR =============
+
 // const colors = [
 // 	"red",
 // 	"blue",
@@ -210,6 +212,9 @@ switch (day) {
 // 	console.log(colors[i]);
 // }
 
+// ======================================
+
+// ========= PETLA WHILE =============
 // let i = 0;
 
 // while (i < 10) {
@@ -217,9 +222,27 @@ switch (day) {
 // 	i++;
 // }
 
-let i = 0;
+// ======================================
 
-do {
-	i++;
-	console.log(i);
-} while (i < 11);
+
+// ========= PETLA DO...WHILE =============
+
+// let i = 0;
+
+// do {
+// 	i++;
+// 	console.log(i);
+// } while (i < 11);
+
+// ========================================
+
+
+// ========= PETLA FOR OF =============
+
+const numbers = [1,2,3,4,5,6,7,8]
+
+for (const number of numbers){
+    console.log(number*2);
+}
+
+
