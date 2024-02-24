@@ -243,9 +243,23 @@ switch (day) {
 //     console.log(number*2);
 // }
 
-const cities = ["London", "Paris", "Warsaw", "Berlin", "Madrid"];
+// ============= FOR - TASK1
 
-for (let i = 0; i < cities.length; i++) {
-	console.log(`To miasto nazywa się: ${cities[i]}`);
-	
+// const cities = ["London", "Paris", "Warsaw", "Berlin", "Madrid", 'New York'];
+
+// for (let i = 0; i < cities.length; i++) {
+// 	console.log(`To miasto nazywa się: ${cities[i]}`);
+
+// }
+
+// ========================================
+
+// ============= WHILE - TASK2
+
+let x = 0;
+while ((x<10)) {
+	x+=2
+    console.log(x);
 }
+
+// ========================================
