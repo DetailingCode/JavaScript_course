@@ -274,24 +274,28 @@ switch (day) {
 
 // ========================================
 
-const numbers = [5, 8, 10, 23, 48, 60];
-
-for (const number of numbers){
-    console.log(number / 5);
-
-}
 
 // ============= FOR OF - TASK4
 
-for(const number of numbers){
-    if(number % 2 === 0){
-        console.log(`%cLiczba ${number} jest parzysta`,'background-color:red; color:black');
-    }else{
-        console.log(`%cLiczba ${number} jest nieparzysta`,'background-color:yellow; color:black');
-    }
-}
+// const numbers = [5, 8, 10, 23, 48, 60];
+
+// for (const number of numbers){
+//     console.log(number / 5);
+
+// }
+
+// // ============= FOR OF - TASK4
+
+// for(const number of numbers){
+//     if(number % 2 === 0){
+//         console.log(`%cLiczba ${number} jest parzysta`,'background-color:orangered; color:black');
+//     }else{
+//         console.log(`%cLiczba ${number} jest nieparzysta`,'background-color:gold; color:black');
+//     }
+// }
 
 // ========================================
+
 
 
 
