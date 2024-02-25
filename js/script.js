@@ -315,15 +315,12 @@ switch (day) {
 
 // ===== MAP, CONCAT, SPREAD, REST OPERATOR
 
-const numbers = [1, 2, 3, 4, 5];
-const abc = ['a','b','c']
+// const numbers = [1, 2, 3, 4, 5];
+// const abc = ["a", "b", "c"];
 
+// const newArray = numbers.concat(abc);
 
-const newArray = numbers.concat(abc)
-
-console.log(newArray);
-
- 
+// console.log(newArray);
 
 // function multiply(x) {
 // 	return x * 2;
@@ -333,13 +330,66 @@ console.log(newArray);
 // console.log(numbers);
 // console.log(newNumbers);
 
+const drinks = ["cola", "pepsi", "orange juice", "sprite"];
+const meals = ["pizza", "spaghetti", "soup", "sandwitch"];
 
-const drinks = ['cola','pepsi','orange juice','sprite']
-const meals = ['pizza','spaghetti','soup','sandwitch']
-
-console.log(...drinks); 
+console.log(...drinks);
 console.log(...meals);
-const menu = [...drinks, ...meals]
+const menu = [...drinks, ...meals];
 
 console.log(menu);
+
+// ===================================
+
+// +++++++++++++++TRESC ZADANIA+++++++++++
+
+// Stwórz zmienną numbers2 i za pomocą metody slice, wytnij z tablicy numbers pierwsze dwa zera.
+
+// Następnie stwórz numbers3 i za pomocą metody slice, wytnij trzy ostatnie dwójki z tablicy numbers. Jeśli nie wiesz jak to zrobić, dokumentacja na MDN z pewnością pomoże. 🙂
+
+// Obydwie te zmienne wypisz w konsoli.
+
+
+
+// Następnie za pomocą metody splice, wytnij dwa ostanie elementy z tablicy colors.
+
+// Te nowe elementy wsadź do tablicy o nazwie randomStuff. Nowe tablice wyloguj w konsoli.
+
+
+
+// Teraz przejdź do tablicy cars. Musisz wyciąć z niej wszystkie samochody i przypisać do tablicy newCars. Skorzystaj oczywiście z metody splice. Podczas wycinania, dodaj napis 'test' do tablicy cars.
+
+// W konsoli wyloguj tablicę cars oraz newCars.
+
+
+const numbers = [0, 0, 1, 1, 2, 2, 2];
+const colors = ["red", "green", "blue", true, 123];
+
+
+
+const cars = [123, true, "audi", "bmw", "mercedes", "ferrari", "🤷‍♂️", "👀"];
+
+
+console.log(numbers);
+
+const numbers2 = numbers.slice(0,2)
+console.log(`numbers2`);
+console.log(numbers2);
+
+const numbers3 = numbers.slice(4)
+console.log(`numbers3`);
+console.log(numbers3);
+
+const randomStuff = colors.splice(-2)
+console.log(`colors`);
+console.log(colors);
+
+console.log(`randomStuff`);
+console.log(randomStuff);
+
+const newCars = cars.splice(2,4, 'test')
+console.log(cars);
+console.log(newCars);
+
+
 
