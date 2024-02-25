@@ -298,16 +298,16 @@ switch (day) {
 
 
 const numbers = []
-
+// dodaje zmienna na początku tablicy
 numbers.unshift(1,2,3,4,5)
 console.log(numbers);
-
+// dodaje zmienna na końcu tablicy
 numbers.push(6,7,8,9)
 console.log(numbers);
-
+// usuwa zmienna - pierwszy element tablicy, w nawiasach nie wpisujemy nic
 numbers.shift()
 console.log(numbers);
-
+// usuwa ostatnia zmienna z tallicy
 numbers.pop(11)
 console.log(numbers);
 
