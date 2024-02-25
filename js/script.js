@@ -274,7 +274,6 @@ switch (day) {
 
 // ========================================
 
-
 // ============= FOR OF - TASK4
 
 // const numbers = [5, 8, 10, 23, 48, 60];
@@ -296,22 +295,38 @@ switch (day) {
 
 // ========================================
 
+// ===== SHIFT, UNSHIFT, POP, PUSH - FUNCTION
 
-const numbers = []
-// dodaje zmienna na początku tablicy
-numbers.unshift(1,2,3,4,5)
-console.log(numbers);
-// dodaje zmienna na końcu tablicy
-numbers.push(6,7,8,9)
-console.log(numbers);
-// usuwa zmienna - pierwszy element tablicy, w nawiasach nie wpisujemy nic
-numbers.shift()
-console.log(numbers);
-// usuwa ostatnia zmienna z tallicy
-numbers.pop(11)
-console.log(numbers);
+// const numbers = []
+// // dodaje zmienna na początku tablicy
+// numbers.unshift(1,2,3,4,5)
+// console.log(numbers);
+// // dodaje zmienna na końcu tablicy
+// numbers.push(6,7,8,9)
+// console.log(numbers);
+// // usuwa zmienna - pierwszy element tablicy, w nawiasach nie wpisujemy nic
+// numbers.shift()
+// console.log(numbers);
+// // usuwa ostatnia zmienna z tallicy
+// numbers.pop(11)
+// console.log(numbers);
+
+// ========================================
+
+// ===== MAP, CONCAT, SPREAD, REST OPERATOR
+
+const numbers = [1, 2, 3, 4, 5];
+const abc = ['a','b','c']
 
 
+const newArray = numbers.concat(abc)
 
+console.log(newArray);
 
+// function multiply(x) {
+// 	return x * 2;
+// }
 
+// const newNumbers = numbers.map(multiply)
+// console.log(numbers);
+// console.log(newNumbers);
