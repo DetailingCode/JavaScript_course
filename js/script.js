@@ -323,6 +323,8 @@ const newArray = numbers.concat(abc)
 
 console.log(newArray);
 
+ 
+
 // function multiply(x) {
 // 	return x * 2;
 // }
@@ -330,3 +332,14 @@ console.log(newArray);
 // const newNumbers = numbers.map(multiply)
 // console.log(numbers);
 // console.log(newNumbers);
+
+
+const drinks = ['cola','pepsi','orange juice','sprite']
+const meals = ['pizza','spaghetti','soup','sandwitch']
+
+console.log(...drinks); 
+console.log(...meals);
+const menu = [...drinks, ...meals]
+
+console.log(menu);
+
