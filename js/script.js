@@ -387,12 +387,28 @@ switch (day) {
 
 // ========== FILTER, FOREACH, INCLUDES
 
-const numbers = [1, 2, 3, 4, 5];
+// const numbers = [1, 2, 3, 4, 5];
 
-const newNumbers = numbers.forEach(number => console.log(number * 2));
+// const newNumbers = numbers.forEach(number => console.log(number * 2));
 
-console.log(newNumbers);
+// console.log(newNumbers);
 
-const mapNumbers = numbers.map(number => console.log(number*2));
-console.log(mapNumbers);
+// const mapNumbers = numbers.map(number => console.log(number*2));
+// console.log(mapNumbers);
+
+// ========== ARRAY - TASK 1 ----------
+
+
+const letters = ['c','d']
+
+letters.unshift('a','b')
+
+console.log(letters);
+
+letters.push('e','f')
+
+console.log(letters);
+
+console.log(letters.includes('c'));
+
 
