@@ -398,17 +398,24 @@ switch (day) {
 
 // ========== ARRAY - TASK 1 ----------
 
+const letters = ["c", "d"];
 
-const letters = ['c','d']
-
-letters.unshift('a','b')
-
-console.log(letters);
-
-letters.push('e','f')
+letters.unshift("a", "b");
 
 console.log(letters);
 
-console.log(letters.includes('c'));
+letters.push("e", "f");
 
+console.log(letters);
 
+console.log(letters.includes("c"));
+
+// ========== ARRAY - TASK 2 ----------
+
+const numbers = [1, 2, 3, 4, 5, 6];
+
+const food = ["pizza", "hamburger", "spaghetti", "sandwitch"];
+
+const newArray = [...numbers, ...food];
+
+console.log(newArray);
