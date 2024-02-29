@@ -398,24 +398,59 @@ switch (day) {
 
 // ========== ARRAY - TASK 1 ----------
 
-const letters = ["c", "d"];
+// const letters = ["c", "d"];
 
-letters.unshift("a", "b");
+// letters.unshift("a", "b");
 
-console.log(letters);
+// console.log(letters);
 
-letters.push("e", "f");
+// letters.push("e", "f");
 
-console.log(letters);
+// console.log(letters);
 
-console.log(letters.includes("c"));
+// console.log(letters.includes("c"));
 
 // ========== ARRAY - TASK 2 ----------
 
-const numbers = [1, 2, 3, 4, 5, 6];
+// const numbers = [1, 2, 3, 4, 5, 6];
 
-const food = ["pizza", "hamburger", "spaghetti", "sandwitch"];
+// const food = ["pizza", "hamburger", "spaghetti", "sandwitch"];
 
-const newArray = [...numbers, ...food];
+// const newArray = [...numbers, ...food];
 
-console.log(newArray);
+// console.log(newArray);
+
+
+// ========== ARRAY - TASK 3 ----------
+
+const numbers = [1,5,13,26,48]
+
+function multiply (x){
+	return x * 5
+
+}
+const newNumbers = numbers.map(multiply)
+console.log(numbers);
+console.log(newNumbers);
+
+	for(const number of newNumbers){
+		if(number % 2 ===0){
+			console.log(`Liczba ${number} jest parzysta`);
+		}else{
+			console.log(`Liczba ${number} jest nieparzysta`);
+		}
+	}
+
+
+
+
+
+// // ============= FOR OF - TASK4
+
+// for(const number of numbers){
+//     if(number % 2 === 0){
+//         console.log(`%cLiczba ${number} jest parzysta`,'background-color:orangered; color:black');
+//     }else{
+//         console.log(`%cLiczba ${number} jest nieparzysta`,'background-color:gold; color:black');
+//     }
+// }
