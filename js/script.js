@@ -450,8 +450,12 @@ colors.push("yellow");
 console.log(colors);
 
 for (let i = 0; i < colors.length; i++) {
-	console.log('%cm','text-transform:uppercase','ój ulubiony kolor to:',colors[i]);
+	console.log(
+		"mój ulubiony kolor to:",
+		colors[i].charAt(0).toUpperCase() + colors[i].slice(1)
+	);
 }
+
 
 
 
