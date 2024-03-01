@@ -4,9 +4,9 @@ const cookieBtn = document.querySelector('.cookie-btn')
 
 
 const showCookie = () => {
-	const cookieRemove = localStorage.getItem('cookie')
+	const cookieEaten = localStorage.getItem('cookie')
 	
-	if (cookieRemove) {
+	if (cookieEaten) {
 		cookieBox.classList.add('hide')
 	}
 }

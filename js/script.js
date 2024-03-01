@@ -420,28 +420,38 @@ switch (day) {
 
 // console.log(newArray);
 
+// ========== ARRAY - TASK 3 ----------
+
+// const numbers = [1,5,13,26,48]
+
+// function multiply (x){
+// 	return x * 5
+
+// }
+// const newNumbers = numbers.map(multiply)
+// console.log(numbers);
+// console.log(newNumbers);
+
+// 	for(const number of newNumbers){
+// 		if(number % 2 ===0){
+// 			console.log(`Liczba ${number} jest parzysta`);
+// 		}else{
+// 			console.log(`Liczba ${number} jest nieparzysta`);
+// 		}
+// 	}
 
 // ========== ARRAY - TASK 3 ----------
 
-const numbers = [1,5,13,26,48]
+const colors = ["red"];
 
-function multiply (x){
-	return x * 5
+colors.unshift("blue");
+colors.push("yellow");
 
+console.log(colors);
+
+for (let i = 0; i < colors.length; i++) {
+	console.log('%cm','text-transform:uppercase','ój ulubiony kolor to:',colors[i]);
 }
-const newNumbers = numbers.map(multiply)
-console.log(numbers);
-console.log(newNumbers);
-
-	for(const number of newNumbers){
-		if(number % 2 ===0){
-			console.log(`Liczba ${number} jest parzysta`);
-		}else{
-			console.log(`Liczba ${number} jest nieparzysta`);
-		}
-	}
-
-
 
 
 
