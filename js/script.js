@@ -440,23 +440,23 @@ switch (day) {
 // 		}
 // 	}
 
-// ========== ARRAY - TASK 3 ----------
+// ========== ARRAY - TASK 4 ----------
 
-const colors = ["red"];
+// const colors = ["red"];
 
-colors.unshift("blue");
-colors.push("yellow");
+// colors.unshift("blue");
+// colors.push("yellow");
 
-console.log(colors);
+// console.log(colors);
 
-for (let i = 0; i < colors.length; i++) {
-	console.log(
-		"mój ulubiony kolor to:",
-		colors[i].charAt(0).toUpperCase() + colors[i].slice(1)
-	);
-}
+// for (let i = 0; i < colors.length; i++) {
+// 	console.log(
+// 		"mój ulubiony kolor to:",
+// 		colors[i].charAt(0).toUpperCase() + colors[i].slice(1)
+// 	);
+// }
 
-
+// ========== ARRAY - TASK 5 ----------
 
 
 // // ============= FOR OF - TASK4
