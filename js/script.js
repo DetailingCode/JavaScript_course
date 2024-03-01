@@ -458,6 +458,19 @@ switch (day) {
 
 // ========== ARRAY - TASK 5 ----------
 
+const cars = "Auddi, Mercedes, BMW, Dodge, Kia";
+
+const carsArray = cars.split(", ");
+console.log(carsArray);
+
+carsArray.length > 3 ? console.log("Jest OK") : console.log("Nie jest OK");
+
+if (carsArray.includes("Audi")) {
+	carsArray.push("Toyota");
+} else {
+	carsArray.pop();
+}
+console.log(carsArray);
 
 // // ============= FOR OF - TASK4
 
