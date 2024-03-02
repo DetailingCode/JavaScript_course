@@ -482,7 +482,8 @@ switch (day) {
 //     }
 // }
 
-function text(){
-	console.log('funkcja');
+function test(name,age){
+	console.log(`Cześć mam na imię: ${name} i mam ${age} lata`);
 }
-text()
+
+test('Dominik', 22)
