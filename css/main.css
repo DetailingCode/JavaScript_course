@@ -10,7 +10,8 @@ html {
 }
 
 body {
-  background-color: #333;
+  background-color: rgb(16, 60, 231);
+  background-image: linear-gradient(90deg, rgb(16, 60, 231) 0%, rgb(100, 233, 255) 100%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,6 +20,27 @@ body {
   background-color: #333;
 }
 
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 100px;
+  background-image: linear-gradient(to right, rgb(0, 168, 255), #fff 35%, #e00a95);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: gradient 3s linear infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 75%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 70%;
+  }
+}
 .hide {
   display: none;
 }
