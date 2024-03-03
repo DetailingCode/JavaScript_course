@@ -510,9 +510,25 @@ switch (day) {
 
 // const hello = (name) => console.log(`Cześć ${name}, jak się masz?`);
 
-const numbers = (x, y, ...z) => {
-	console.log(x, y, z);
-	console.log((z.map(el => el*2)));
-};
 
-numbers(123, 543, 654, 5643);
+// ========== OPERATOR REST =============
+
+// const numbers = (x, y, ...z) => {
+// 	console.log(x, y, z);
+// 	console.log((z.map(el => el*2)));
+// };
+
+// numbers(123, 543, 654, 5643);
+
+
+// ==================================================
+
+
+const name = 'Ola'
+
+const test = () => {
+	console.log(`NAME w funkcji ${name}`);
+}
+
+test()
+
