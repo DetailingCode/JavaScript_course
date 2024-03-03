@@ -482,7 +482,7 @@ switch (day) {
 //     }
 // }
 
-// ====== FUNCTION ======== 
+// ====== FUNCTION ========
 
 // function test(name,age){
 // 	console.log(`Cześć mam na imię: ${name} i mam ${age} lata`);
@@ -490,4 +490,27 @@ switch (day) {
 
 // test('Dominik', 22)
 // ==================================================
+
+// ========== FUNKCJA STRZALKOWA =============
+
+// const test2 = (name) => {
+// 	console.log(`Mam na imię ${name}`);
+// };
+
+// test2("Imię");
+
+// const days = ["monday", "tuesday", "wednesday"];
+
+// const days2 = days.forEach((day) => console.log(day));
+
+
+// const test3 = name => console.log(name);
+// test3('Arek')
+
+// ==================================================
+
+
+const hello = (name) => {
+	console.log(`Cześć ${name}, jak się masz?`);
+}
 

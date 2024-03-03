@@ -13,8 +13,8 @@ body {
 	background-color: rgba(16, 60, 231, 1);
 	background-image: linear-gradient(
 		90deg,
-		rgba(16, 60, 231, 1) 0%,
-		rgba(100, 233, 255, 1) 100%
+		rgb(10, 26, 88) 0%,
+		rgb(62, 171, 190) 100%
 	);
 	display: flex;
 	justify-content: center;
@@ -26,27 +26,28 @@ body {
 h1 {
 	font-family: "Poppins", sans-serif;
 	font-size: 100px;
-	background-image: linear-gradient(
-		to right,
-		rgba(0, 168, 255),
-		#fff 35%,
-		#e00a95
-	);
+	background-image: radial-gradient(rgb(255, 166, 0), #ff0000 150%);
 	background-size: 200% auto;
 	-webkit-background-clip: text;
 	color: transparent;
-	animation: gradient 3s linear infinite;
+	animation: gradient 5s linear infinite;
 }
 
 @keyframes gradient {
 	0% {
-		background-position: 0% 75%;
+		background-position: 0 0;
+	}
+	25% {
+		background-position: 100% 0%;
 	}
 	50% {
-		background-position: 100% 50%;
+		background-position: 100% 100%;
+	}
+	75% {
+		background-position: 0% 100%;
 	}
 	100% {
-		background-position: 0% 70%;
+		background-position: 0 0;
 	}
 }
 
