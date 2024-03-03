@@ -503,14 +503,16 @@ switch (day) {
 
 // const days2 = days.forEach((day) => console.log(day));
 
-
 // const test3 = name => console.log(name);
 // test3('Arek')
 
 // ==================================================
 
+// const hello = (name) => console.log(`Cześć ${name}, jak się masz?`);
 
-const hello = (name) => {
-	console.log(`Cześć ${name}, jak się masz?`);
-}
+const numbers = (x, y, ...z) => {
+	console.log(x, y, z);
+	console.log((z.map(el => el*2)));
+};
 
+numbers(123, 543, 654, 5643);
