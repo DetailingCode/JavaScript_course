@@ -524,11 +524,30 @@ switch (day) {
 // ==================================================
 
 
-const name = 'Ola'
+const name = 'Lisa'
 
 const test = () => {
+	const name = 'Lily'
 	console.log(`NAME w funkcji ${name}`);
+
+	const age = 22
+	console.log(age);
+
+	const test2 = () => {
+		console.log(`------`);	
+		console.log(name);
+
+		const color = 'red'
+		console.log(color);
+	}
+	test2()
+
+	const test3 = () => {
+		console.log(color);
+	}
+	test3()
 }
 
 test()
-
+console.log(`------`);
+console.log(`NAME nie w funkcji ${name}`);
