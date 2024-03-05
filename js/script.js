@@ -510,7 +510,6 @@ switch (day) {
 
 // const hello = (name) => console.log(`Cześć ${name}, jak się masz?`);
 
-
 // ========== OPERATOR REST =============
 
 // const numbers = (x, y, ...z) => {
@@ -520,34 +519,50 @@ switch (day) {
 
 // numbers(123, 543, 654, 5643);
 
-
 // ==================================================
 
+// ========== ZAKRESY =============
 
-const name = 'Lisa'
+// const name = "Lisa";
 
-const test = () => {
-	const name = 'Lily'
-	console.log(`NAME w funkcji ${name}`);
+// const test = () => {
+// 	const name = "Lily";
+// 	console.log(`NAME w funkcji ${name}`);
 
-	const age = 22
-	console.log(age);
+// 	const age = 22;
+// 	console.log(age);
 
-	const test2 = () => {
-		console.log(`------`);	
-		console.log(name);
+// 	const test2 = () => {
+// 		console.log(`------`);
+// 		console.log(name);
 
-		const color = 'red'
-		console.log(color);
-	}
-	test2()
+// 		const color = "red";
+// 		console.log(color);
+// 	};
+// 	test2();
 
-	const test3 = () => {
-		console.log(color);
-	}
-	test3()
+// 	const test3 = () => {
+// 		console.log(color);
+// 	};
+// 	test3();
+// };
+
+// test();
+// console.log(`------`);
+// console.log(`NAME nie w funkcji ${name}`);
+// ==================================================
+
+// ============= FOREACH and CALLBACK -----------------
+
+const numbers = [0.5, 5, "text"];
+const names = ["Ala", "Lisa", "Jan", "Olek"];
+
+numbers.forEach((num) => console.log(num * 2));
+
+const bigNames = names.map(name => name.toUpperCase());
+console.log(bigNames);
+
+const showBigNames = (name) => {
+	console.log(name.toUpperCase());
 }
-
-test()
-console.log(`------`);
-console.log(`NAME nie w funkcji ${name}`);
+names.forEach(showBigNames)
