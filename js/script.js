@@ -554,15 +554,63 @@ switch (day) {
 
 // ============= FOREACH and CALLBACK -----------------
 
-const numbers = [0.5, 5, "text"];
-const names = ["Ala", "Lisa", "Jan", "Olek"];
+// const numbers = [0.5, 5, "text"];
+// const names = ["Ala", "Lisa", "Jan", "Olek"];
 
-numbers.forEach((num) => console.log(num * 2));
+// numbers.forEach((num) => console.log(num * 2));
 
-const bigNames = names.map(name => name.toUpperCase());
-console.log(bigNames);
+// const bigNames = names.map(name => name.toUpperCase());
+// console.log(bigNames);
 
-const showBigNames = (name) => {
-	console.log(name.toUpperCase());
+// const showBigNames = (name) => {
+// 	console.log(name.toUpperCase());
+// }
+// names.forEach(showBigNames)
+
+// ==================================================
+
+// ======== FUNCTION TASK1 ==========
+
+let score;
+
+const add = (x, y) => {
+	score = x + y;
+
+	score % 2 === 0 ? evenNumber() : oddNumber();
+
+	// if(score % 2===0){
+	// 	evenNumber()
+	// }else {
+	// 	oddNumber()
+
+	// }
+};
+
+const evenNumber = () => {
+	console.log(`Liczba ${score} jest parzysta`);
+};
+
+const oddNumber = () => {
+	console.log(`Liczba ${score} jest nieparzysta`);
+};
+
+add(2, 2);
+// ==================================================
+
+// ======== FUNCTION TASK1 SECOND WAY (How to do it)==========
+
+const add = (x, y) => {
+	const score = x + y;
+
+	score % 2 === 0 ? evenNumber(score) : oddNumber(score);
+};
+
+const evenNumber = (num) => {
+	console.log(`Liczba ${num} jest parzysta`);
 }
-names.forEach(showBigNames)
+
+const oddNumber = (num) => {
+	console.log(`Funkcja ${num} jest nieparzysta`);
+}
+// ==================================================
+
