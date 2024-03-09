@@ -571,46 +571,58 @@ switch (day) {
 
 // ======== FUNCTION TASK1 ==========
 
-let score;
+// let score;
 
-const add = (x, y) => {
-	score = x + y;
+// const add = (x, y) => {
+// 	score = x + y;
 
-	score % 2 === 0 ? evenNumber() : oddNumber();
+// 	score % 2 === 0 ? evenNumber() : oddNumber();
 
-	// if(score % 2===0){
-	// 	evenNumber()
-	// }else {
-	// 	oddNumber()
+// 	// if(score % 2===0){
+// 	// 	evenNumber()
+// 	// }else {
+// 	// 	oddNumber()
 
-	// }
-};
+// 	// }
+// };
 
-const evenNumber = () => {
-	console.log(`Liczba ${score} jest parzysta`);
-};
+// const evenNumber = () => {
+// 	console.log(`Liczba ${score} jest parzysta`);
+// };
 
-const oddNumber = () => {
-	console.log(`Liczba ${score} jest nieparzysta`);
-};
+// const oddNumber = () => {
+// 	console.log(`Liczba ${score} jest nieparzysta`);
+// };
 
-add(2, 2);
+// add(2, 2);
 // ==================================================
 
 // ======== FUNCTION TASK1 SECOND WAY (How to do it)==========
 
-const add = (x, y) => {
-	const score = x + y;
+// const add = (x, y) => {
+// 	const score = x + y;
 
-	score % 2 === 0 ? evenNumber(score) : oddNumber(score);
-};
+// 	score % 2 === 0 ? evenNumber(score) : oddNumber(score);
+// };
 
-const evenNumber = (num) => {
-	console.log(`Liczba ${num} jest parzysta`);
-}
+// const evenNumber = (num) => {
+// 	console.log(`Liczba ${num} jest parzysta`);
+// }
 
-const oddNumber = (num) => {
-	console.log(`Funkcja ${num} jest nieparzysta`);
-}
+// const oddNumber = (num) => {
+// 	console.log(`Funkcja ${num} jest nieparzysta`);
+// }
+
+// add(3,3)
 // ==================================================
+
+// ======== Conversion Celsiuc to fahrenheit  TASK2 ==========
+
+let celcius
+let temp
+
+const fahrenheit = (par1) => {
+	celcius = par1
+}
+
 
