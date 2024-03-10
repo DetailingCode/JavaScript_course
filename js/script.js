@@ -618,11 +618,14 @@ switch (day) {
 
 // ======== Conversion Celsiuc to fahrenheit  TASK2 ==========
 
-let celcius
-let temp
+let celcius;
+let temp;
 
-const fahrenheit = (par1) => {
-	celcius = par1
-}
+const fahrenheit = (c) => {
+	celcius = c;
+	temp = celcius * 1.8 + 32;
 
+	console.log(`${c} stopni C = ${temp} stopni F`);
+};
 
+fahrenheit(0);
