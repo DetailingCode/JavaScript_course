@@ -618,14 +618,56 @@ switch (day) {
 
 // ======== Conversion Celsiuc to fahrenheit  TASK2 ==========
 
-let celcius;
-let temp;
+// let celcius;
+// let temp;
 
-const fahrenheit = (c) => {
-	celcius = c;
-	temp = celcius * 1.8 + 32;
+// const fahrenheit = (c) => {
+// 	celcius = c;
+// 	temp = celcius * 1.8 + 32;
 
-	console.log(`${c} stopni C = ${temp} stopni F`);
+// 	console.log(`${celcius} stopni C = ${temp} stopni F`);
+// };
+
+// fahrenheit(0);
+
+// let celcius;
+// let temp;
+
+// const fahrenheit = (c) => {
+// 	celcius = c;
+// 	temp = celcius * 1.8 + 32;
+// 	console.log(`${celcius} stopni C = ${temp}`);
+// };
+
+// fahrenheit(30);
+
+
+// ==================================================
+
+// ========  TASK3 ==========
+
+// 1. Stworz zmienna num (przypisz wartosc 10) oraz numbers (przypisz pusta tablica)
+// 2. Stworzyc petle FormData, gdzie i bedzie mniejsze od num, petla ma dodawac i do talicy number
+// 3. Stworz funkcje ktora przyjmie 1 parametr. W funkcji ma byc if, ktory sprawdz czy liczba podana w argumencie jest podzielna przez 3 oraz rozna od zera:
+// -- jezeli tak wypisz w koncoli X jest podzielne przez 3
+// -- jezeli nie, wypisz x nie jest podzielne przez 3 lub x=0
+// 4. Za pomoca forEach odwolaj się do tablicy numbers
+
+
+const num = 10;
+const numbers = [];
+
+for (let i = 0; i < num; i++) {
+	numbers.push(i);
+}
+console.log(numbers);
+
+const checkNumbers = (number) => {
+	if (number % 3 === 0 && number !== 0) {
+		console.log(`${number} jest podzielne przez 3`);
+	} else {
+		console.log(`${number} nie jest podzielne przez 3 lub ${number} = 0`);
+	}
 };
 
-fahrenheit(0);
+numbers.forEach(checkNumbers) 
