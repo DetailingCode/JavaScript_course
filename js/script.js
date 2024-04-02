@@ -654,20 +654,23 @@ switch (day) {
 // 4. Za pomoca forEach odwolaj się do tablicy numbers
 
 
-const num = 10;
-const numbers = [];
+// const num = 10;
+// const numbers = [];
 
-for (let i = 0; i < num; i++) {
-	numbers.push(i);
-}
-console.log(numbers);
+// for (let i = 0; i < num; i++) {
+// 	numbers.push(i);
+// }
+// console.log(numbers);
 
-const checkNumbers = (number) => {
-	if (number % 3 === 0 && number !== 0) {
-		console.log(`${number} jest podzielne przez 3`);
-	} else {
-		console.log(`${number} nie jest podzielne przez 3 lub ${number} = 0`);
-	}
-};
+// const checkNumbers = (number) => {
+// 	if (number % 3 === 0 && number !== 0) {
+// 		console.log(`${number} jest podzielne przez 3`);
+// 	} else {
+// 		console.log(`${number} nie jest podzielne przez 3 lub ${number} = 0`);
+// 	}
+// };
 
-numbers.forEach(checkNumbers) 
+// numbers.forEach(checkNumbers) 
+
+// const className = document.getElementsByClassName('test')
+// console.log(className);
