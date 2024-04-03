@@ -674,3 +674,6 @@ switch (day) {
 
 // const className = document.getElementsByClassName('test')
 // console.log(className);
+
+const test = document.querySelectorAll('li')
+console.log(test);
