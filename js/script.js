@@ -641,7 +641,6 @@ switch (day) {
 
 // fahrenheit(30);
 
-
 // ==================================================
 
 // ========  TASK3 ==========
@@ -652,7 +651,6 @@ switch (day) {
 // -- jezeli tak wypisz w koncoli X jest podzielne przez 3
 // -- jezeli nie, wypisz x nie jest podzielne przez 3 lub x=0
 // 4. Za pomoca forEach odwolaj się do tablicy numbers
-
 
 // const num = 10;
 // const numbers = [];
@@ -670,10 +668,32 @@ switch (day) {
 // 	}
 // };
 
-// numbers.forEach(checkNumbers) 
+// numbers.forEach(checkNumbers)
+
+// SELEKTORY ==========
 
 // const className = document.getElementsByClassName('test')
 // console.log(className);
 
-const test = document.querySelectorAll('li')
+// const test = document.querySelectorAll('li')
+// console.log(test);
+
+// const ulList = document.querySelector('ul')
+// console.log(ulList);
+
+// const liItem = ulList.querySelector('li')
+// console.log(liItem);
+
+// ==================================
+
+const heading = document.querySelector("h1");
+console.log(heading);
+
+const paragraph = document.querySelectorAll('p')
+console.log(paragraph);
+
+const divTest = document.querySelector('.test')
+
+const test = divTest.querySelector("#test")
+
 console.log(test);
