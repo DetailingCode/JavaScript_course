@@ -686,14 +686,25 @@ switch (day) {
 
 // ==================================
 
-const heading = document.querySelector("h1");
-console.log(heading);
+// const heading = document.querySelector("h1");
+// console.log(heading);
 
-const paragraph = document.querySelectorAll('p')
-console.log(paragraph);
+// const paragraph = document.querySelectorAll('p')
+// console.log(paragraph);
 
-const divTest = document.querySelector('.test')
+// const divTest = document.querySelector('.test')
 
-const test = divTest.querySelector("#test")
+// const test = divTest.querySelector("#test")
 
-console.log(test);
+// console.log(test);
+
+// ======== Dodawanie elementow na stronę
+
+const ulList = document.createElement('ul')
+const liItem = document.createElement('li')
+
+liItem.textContent = 'cześć'
+
+document.body.appendChild(ulList)
+document.body.appendChild(liItem)
+
