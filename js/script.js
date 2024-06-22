@@ -706,5 +706,5 @@ const liItem = document.createElement('li')
 liItem.textContent = 'cześć'
 
 document.body.appendChild(ulList)
-document.body.appendChild(liItem)
+ulList.appendChild(liItem)
 

@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: rgb(16, 60, 231);
+  background-image: linear-gradient(90deg, rgb(10, 26, 88) 0%, rgb(62, 171, 190) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  background-color: #333;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 100px;
+  background-image: radial-gradient(rgb(255, 166, 0), #ff0000 150%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: gradient 5s linear infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0 0;
+  }
+  25% {
+    background-position: 100% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  75% {
+    background-position: 0% 100%;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+.hide {
+  display: none;
+}
+
+.cookie-box {
+  position: fixed;
+  bottom: 0;
+  padding: 2em;
+  font-size: 1.6rem;
+  height: 200px;
+  width: 100%;
+  text-align: center;
+  background-color: #fff;
+  opacity: 0;
+  transform: translateY(100%);
+  animation: showcookies 0.5s 0.5s forwards;
+}
+
+.cookie-box::before {
+  position: absolute;
+  top: -150px;
+  right: 50px;
+  width: 200px;
+  height: 200px;
+  background-image: url(../img/cookies.png);
+  background-size: cover;
+  content: "";
+}
+
+.cookie-btn {
+  margin-top: 1em;
+  padding: 0.5em 1em;
+  font-size: 1.6rem;
+  border-radius: 1em;
+  border: 2px solid black;
+  color: #000;
+  background-color: #fbb97a;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.cookie-btn:hover {
+  background-color: #fa8a22;
+}
+
+@keyframes showcookies {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}/*# sourceMappingURL=main.css.map */
