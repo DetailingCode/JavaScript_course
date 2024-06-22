@@ -700,11 +700,15 @@ switch (day) {
 
 // ======== Dodawanie elementow na stronę
 
-const ulList = document.createElement('ul')
-const liItem = document.createElement('li')
 
-liItem.textContent = 'cześć'
+const test = document.getElementById("item")
 
-document.body.appendChild(ulList)
-ulList.appendChild(liItem)
+console.log(test);
+// const ulList = document.createElement('ul')
+// const liItem = document.createElement('li')
+
+// liItem.textContent = 'cześć'
+
+// document.body.appendChild(ulList)
+// ulList.appendChild(liItem)
 
