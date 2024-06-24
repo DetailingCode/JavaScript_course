@@ -701,9 +701,17 @@ switch (day) {
 // ======== Dodawanie elementow na stronę
 
 
-const test = document.getElementById("item")
+// const test2 = document.getElementsByClassName("test")
+// console.log(test2);
 
-console.log(test);
+// const test = document.getElementById("item")
+
+// console.log(test);
+
+// const test3 = document.getElementsByTagName("li")
+// console.log(test3);
+
+
 // const ulList = document.createElement('ul')
 // const liItem = document.createElement('li')
 

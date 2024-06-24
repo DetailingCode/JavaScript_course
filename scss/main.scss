@@ -28,9 +28,10 @@ h1 {
 	font-size: 100px;
 	background-image: radial-gradient(rgb(255, 166, 0), #ff0000 150%);
 	background-size: 200% auto;
-	-webkit-background-clip: text;
+	// -webkit-background-clip: text;
 	color: transparent;
 	animation: gradient 5s linear infinite;
+	padding-bottom: 2em;
 }
 
 @keyframes gradient {
